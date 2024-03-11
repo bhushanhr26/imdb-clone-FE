@@ -1,6 +1,6 @@
 import { BrowserRouter as Router } from "react-router-dom";
 import ImdbAppRoutes from "./Routes.js";
-import Header from "./componets/Header/jsx/Header.jsx";
+import Header from "./components/Header/jsx/Header.jsx";
 function App() {
   return (
     <Router>

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "../css/LandingPage.css";
 import sideBanner from "../../../assets/sideBanner.jpg";
 import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
+import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import VideoPlayer from "../../../components/VideoPlayer/js/VideoPlayer";
 
 const newData = [
   {
@@ -57,13 +59,15 @@ export default function LandingPage() {
   const [sideData, setSideData] = useState(newData);
   return (
     <div className="container d-flex" style={{ maxWidth: "1200px" }}>
-      <div className="col-8">8</div>
+      <div className="col-8">
+        <VideoPlayer />
+      </div>
       <div className="col-4 pt-2">
         <span className="upNextText">Up Next</span>
         <div className="mt-2">
           {sideData.map((item, index) => {
             return (
-              <div className="d-flex sideContainer p-3 ">
+              <div className="d-flex sideContainer p-3 " key={index}>
                 <div className="me-2">
                   <img
                     src={item.img}
@@ -85,6 +89,9 @@ export default function LandingPage() {
               </div>
             );
           })}
+          <p className="browseText mt-2">
+            Browse trailers <ChevronRightIcon />
+          </p>
         </div>
       </div>
     </div>

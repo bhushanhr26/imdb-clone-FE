@@ -1,0 +1,80 @@
+.VideoPlayerContainer {
+  background-image: url(../../../assets/sideBanner.jpg);
+  max-width: 100%;
+  min-height: 552px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.changerBtnleft {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 20px 8px 20px 8px;
+  cursor: pointer;
+}
+.changerBtnleft:hover {
+  color: #f5c518;
+  cursor: pointer;
+}
+.changerBtnright:hover {
+  color: #f5c518;
+  cursor: pointer;
+}
+
+.changerBtnright {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 20px 8px 20px 8px;
+  cursor: pointer;
+}
+.sliderBtn {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 60px;
+  cursor: pointer;
+}
+.bookmarkContainer {
+  background-image: url(../../../assets/omen.jpg);
+  min-width: 23%;
+  min-height: 250px;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+.movieName {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  cursor: pointer;
+}
+.movieDEsc {
+  color: #6b6b6b;
+  font-weight: 500;
+  font-size: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  cursor: pointer;
+}
+.videoInfo {
+  background-color: #000000;
+  box-shadow: 0px -14px 26px 18px rgb(3 3 3);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  cursor: pointer;
+  /* padding-left: calc(100% - 200px); */
+}
