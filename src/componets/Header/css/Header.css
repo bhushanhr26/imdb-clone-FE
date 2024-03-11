@@ -1,0 +1,88 @@
+.header-container {
+  background-color: #121212;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imdb-logo {
+  background-color: #f5c518;
+  border-radius: 5px;
+}
+.imdb-logo > span {
+  color: #000000;
+  font-weight: 900;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Arial,
+    Helvetica, sans-serif;
+}
+.menu-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Arial,
+    Helvetica, sans-serif;
+}
+.header-search {
+  background: #ffffff;
+  border-radius: 5px;
+}
+.search-bar > input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: #000000;
+  padding-left: 10px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Arial,
+    Helvetica, sans-serif;
+}
+.search-bar > input::placeholder {
+  border: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Arial,
+    Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+.all-text {
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Arial,
+    Helvetica, sans-serif;
+}
+.header-div-separator {
+  background-color: #818080;
+  width: 1px;
+  height: 27px;
+}
+.IMDbText {
+  color: #ffffff;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Arial,
+    Helvetica, sans-serif;
+}
+.proText {
+  color: #02acd3;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Arial,
+    Helvetica, sans-serif;
+}
+.div-separator {
+  background-color: #4a4949;
+  width: 2px;
+  height: 25px;
+}
+.menu-con {
+  padding: 7px;
+  margin: 5px;
+}
+.menu-con:hover {
+  background: #2b2b2b;
+  border-radius: 5px;
+}
