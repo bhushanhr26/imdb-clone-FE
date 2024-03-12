@@ -30,31 +30,7 @@ const newData = [
     time: "3:21",
     title: "Inside Out 2' Makes Us Feel Every Emotion",
     description: "Watch the new trailer",
-  },
-  {
-    img: sideBanner,
-    time: "3:21",
-    title: "Inside Out 2' Makes Us Feel Every Emotion",
-    description: "Watch the new trailer",
-  },
-  {
-    img: sideBanner,
-    time: "3:21",
-    title: "Inside Out 2' Makes Us Feel Every Emotion",
-    description: "Watch the new trailer",
-  },
-  {
-    img: sideBanner,
-    time: "3:21",
-    title: "Inside Out 2' Makes Us Feel Every Emotion",
-    description: "Watch the new trailer",
-  },
-  {
-    img: sideBanner,
-    time: "3:21",
-    title: "Inside Out 2' Makes Us Feel Every Emotion",
-    description: "Watch the new trailer",
-  },
+  }
 ];
 export default function LandingPage() {
   const [sideData, setSideData] = useState(newData);
@@ -62,7 +38,9 @@ export default function LandingPage() {
     <div className="container d-flex" style={{ maxWidth: "1200px" }}>
       <div className="col-8">
         <VideoPlayer />
+        <div>
         <FeaturedCard />
+        </div>
       </div>
       <div className="col-4 pt-2">
         <span className="upNextText">Up Next</span>
