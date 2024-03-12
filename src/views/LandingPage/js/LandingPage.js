@@ -4,6 +4,7 @@ import sideBanner from "../../../assets/sideBanner.jpg";
 import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import VideoPlayer from "../../../components/VideoPlayer/js/VideoPlayer";
+import FeaturedCard from "../../../components/FeaturedCard/js/FeaturedCard";
 
 const newData = [
   {
@@ -61,6 +62,7 @@ export default function LandingPage() {
     <div className="container d-flex" style={{ maxWidth: "1200px" }}>
       <div className="col-8">
         <VideoPlayer />
+        <FeaturedCard />
       </div>
       <div className="col-4 pt-2">
         <span className="upNextText">Up Next</span>
