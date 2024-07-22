@@ -1,0 +1,27 @@
+.divider {
+  background-color: yellow;
+  width: 3px;
+  margin-right: 5px;
+  border-radius: 2px;
+  height: 18px;
+}
+.celebrity-tab-container {
+  overflow: auto;
+}
+.celebrity-tab-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.celebrity-tab-title > span {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+.celebrity-tab-title:hover {
+  cursor: pointer;
+}
+.celebrity-tab-title > span:hover {
+  transform: scale(1.2);
+}
